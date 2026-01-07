@@ -1,24 +1,20 @@
 {% extends "base.html" %}
 
-{% block title %}Text Typing APp{% endblock %}
+{% block title %}Text Typing App{% endblock %}
 
 {% block content %}
 
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Welcome to the Text Typing App</h4>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Don't stop typing! All your work will disappear if you pause for 10 seconds..</p>
-                    <a href="{{ url_for('game') }}" id="start-btn" class="btn btn-success" >Start</a>
-                </div>
-            </div>
-        </div>
+<body class="h-100 text-center">
+    <div class="cover-container">
+        <main class="px-3">
+            <h1 class="welcome-message">Welcome to the Text Typing App</h1>
+            <h4 class="h4-lead">Psst.</h4>
+            <p class="p-lead">Don’t stop typing for more than 10 seconds, <br>
+                or everything you’ve written will vanish.</p>
+            <a href="/game" class="btn btn-lg btn-secondary fw-bold">Start</a>
+        </main>
     </div>
-</div>
+</body>
 
 
 {% endblock %}

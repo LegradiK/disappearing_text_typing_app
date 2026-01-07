@@ -1,0 +1,97 @@
+:root {
+  --black: #0d1b2a;
+  --persian-blue: #1b263b;
+  --dusk-blue: #415a77;
+  --lavender-blue: #778da9;
+  --alabaster-grey: #e0e1dd;
+  --text-color: #212529;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Page layout */
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--alabaster-grey);
+  min-height: 100vh;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+/* Header */
+.header {
+  background-color: var(--dusk-blue);
+  padding: 1.5rem 2rem;
+}
+
+.header-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dusk-blue);
+  padding: 0.8rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: var(--lavender-blue);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.welcome-message {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.h4-lead {
+  font-weight: 350;
+  margin-bottom: 1.5rem;
+}
+.p-lead {
+  font-size: 1.25rem;
+  margin-bottom: 1.8rem;
+  font-style: italic;
+}
+
+.btn {
+  background-color: var(--dusk-blue);
+  color: #ffffff;
+  border: none;
+  padding:1rem 1.75rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-weight: 350;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border-color: cadetblue;
+}
