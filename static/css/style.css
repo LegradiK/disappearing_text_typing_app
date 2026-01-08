@@ -44,6 +44,30 @@ main {
   text-align: left;
 }
 
+.header-timer-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  text-align: left;
+}
+
+.header-timer-value {
+  font-size: 1.50rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  text-align: left;
+}
+
+.timer {
+    display: flex;
+    align-items: center;      /* vertical alignment */
+    gap: 0.5rem;              /* space between text and number */
+}
+
+
+
 /* Footer */
 .footer {
   background-color: var(--dusk-blue);
