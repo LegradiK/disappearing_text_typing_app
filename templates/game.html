@@ -6,8 +6,12 @@
 
     <div class="text-area-container">
         <form method="POST">
-            <textarea id=typingArea class="textarea"></textarea>
+            <textarea id="typingArea" class="textarea"></textarea>
         </form>
     </div>
 
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
 {% endblock %}
