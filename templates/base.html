@@ -26,6 +26,11 @@
         document.addEventListener('DOMContentLoaded', () => {
         const textarea = document.getElementById('typingArea');
         const timerDisplay = document.getElementById('timer');
+        const focusOnTextInput = () => document.getElementById('typingArea').focus();
+
+        document.addEventListener('click', focusOnTextInput);
+        document.addEventListener('DOMContentLoaded', focusOnTextInput);
+
 
         if (!textarea) {
             console.warn('Required elements not found');
