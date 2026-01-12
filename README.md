@@ -4,7 +4,7 @@ A browser-based typing game built with Flask and JavaScript, focused on clean ar
 
 This project demonstrates practical full-stack fundamentals: backend routing with Flask, template inheritance with Jinja2, and client-side state management using vanilla JavaScript.
 
-## Live Overview
+## Overview
 
 #### What it does:
 
